@@ -64,6 +64,9 @@ function addTask() {
 
   input.value = "";
 }
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
 
 // load tasks on start
 renderTasks();

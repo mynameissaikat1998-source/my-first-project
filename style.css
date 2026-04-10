@@ -38,3 +38,34 @@ li {
   text-decoration: line-through;
   color: gray;
 }
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .container {
+  background: #1e1e1e;
+}
+
+.dark input {
+  background: #333;
+  color: white;
+}
+
+.dark button {
+  background: #444;
+  color: white;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  input {
+    width: 60%;
+  }
+
+  button {
+    margin-top: 5px;
+  }
+}
